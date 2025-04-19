@@ -1,0 +1,37 @@
+score values = [200, 400, 600, 800, 1000]
+categories = [sports, TV, books, history, math, technology]
+
+- there are 3 contestants, and 1 host
+- intro/rules from host
+- random contestant is decided to pick the starting score within a category
+- a clue is presented by the host
+- after the clue is done being presented, all contestants are able to buzz in
+- if anyone buzz in within a few seconds (this is up to the host):
+    the first contestant to buzz in has 5 seconds to answer in the form of a question
+    is the answer correct?
+        yes:
+            gain points
+        no:
+            lose points
+            contestants get to buzz in again
+- answer is revealed
+- question disappears
+- last person to guess correctly (or whoever was decided at the beginning if no one has yet) chooses next score within a category
+- continue until there are no more choices
+- winner is whoever has the most points, if there is a tie, host presents a tiebreaker question
+- announce winner
+
+Final Jeopardy:
+    last prompt
+    everyone answers
+    write answer and wager (iconic music plays)
+    for every contestant:
+        is correct?
+            yes:
+                double wagered points
+            no:
+                lose wagered points
+
+Double Jeopardy is another round with a completely new board with new categories, and all of the score values are doubled
+
+Daily Double is hidden randomly on the board (on each board, with 1 in normal jeopardy, and 2 during double jeopardy). Only the contestant who found the daily double wagers. If the contestant is correct, their score is doubled. If not, they lose what they wagered.
